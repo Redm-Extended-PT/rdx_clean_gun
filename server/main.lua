@@ -1,14 +1,14 @@
-VORP = exports.vorp_inventory:vorp_inventoryApi()
 
 
--- item for short weapon
-Citizen.CreateThread(function()
-	Citizen.Wait(2000)
-	VORP.RegisterUsableItem("cleanshort", function(data)
-		local _source = source
-		TriggerClientEvent('cleaning:startcleaningshort', data.source, cleaning)
-		VORP.subItem(data.source,"cleanshort", 1)
-	end)
+RDX = nil
+TriggerEvent('rdx:getSharedObject', function(obj) RDX = obj end)
+
+RDX.RegisterUsableItem('item_cleanshort', function(source)		
+   local xPlayer = RDX.GetPlayerFromId(source)
+   xPlayer.removeInventoryItem('item_cleanshort',1)   
+   TriggerClientEvent('cleaning:startcleaningshort', source, cleaning)
+   Citizen.Wait(500)
+   --TriggerClientEvent('rdx:alert',source,''..Config.MsgSet[item]..'', 0)	
 end)
 
 
