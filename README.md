@@ -1,8 +1,7 @@
 # RDX-Core | RedM Extended
 # rdx_clean_gun
-
-
 Cleaning weapon script
+
 ## Preview
 - [Video](https://streamable.com/px5abv)
 
@@ -17,9 +16,9 @@ Cleaning weapon script
 - To change the language go to ```resources/rdx_clean_gun/Config.lua```, and chenge the language 
 - Enjoy!
 
-
+## 3. Credits
 - Made between [Le Bookmaker](https://github.com/LeBookmaker) and [alphatule](https://github.com/alphatule)
 - RDX Framework support added by Vision
 
-## 3. Last Update
+## 4. Last Update
 - 09/25/2022
