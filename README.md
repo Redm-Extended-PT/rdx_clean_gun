@@ -1,6 +1,8 @@
-# RDX-Core rdx_clean_gun
-Cleaning weapon script
+# RDX-Core | RedM Extended
+# rdx_clean_gun
 
+
+Cleaning weapon script
 ## Preview
 - [Video](https://streamable.com/px5abv)
 
@@ -12,7 +14,7 @@ Cleaning weapon script
 - Copy and paste ```rdx_clean_gun``` folder to ```resources/rdx_clean_gun```
 - Add ```ensure rdx_clean_gun``` to your ```server.cfg``` file
 - Add SQL to your DB ```sql``` folder
-- To change the language go to ```resources/bookat_cleangun/Config.lua```, and chenge the language 
+- To change the language go to ```resources/rdx_clean_gun/Config.lua```, and chenge the language 
 - Enjoy!
 
 
