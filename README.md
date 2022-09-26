@@ -1,4 +1,4 @@
-# VORP-Core bookat_cleangun
+# RDX-Core rdx_cleangun
 Cleaning weapon script
 
 ## Preview
