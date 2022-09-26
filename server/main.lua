@@ -1,5 +1,3 @@
-
-
 RDX = nil
 TriggerEvent('rdx:getSharedObject', function(obj) RDX = obj end)
 
