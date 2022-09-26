@@ -1,3 +1,3 @@
 Config = {}
 
-Config.lang = 'fr'
+Config.lang = 'en'
