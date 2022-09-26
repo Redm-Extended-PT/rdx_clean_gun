@@ -21,5 +21,5 @@ Cleaning weapon script
 - Made between [Le Bookmaker](https://github.com/LeBookmaker) and [alphatule](https://github.com/alphatule)
 - RDX Framework support added by Vision
 
-## 4. Last Update
+## 3. Last Update
 - 09/25/2022
