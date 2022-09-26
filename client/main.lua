@@ -4,7 +4,8 @@
 --====       Alphatule          ====
 --====         ENJOY            ====
 --==================================
-
+RDX = nil
+Citizen.CreateThread(function()	while RDX == nil do TriggerEvent('rdx:getSharedObject', function(obj) RDX = obj end) Citizen.Wait(300) end end)
 
 -- for cleaning your gun with animation ENJOY
 RegisterNetEvent('cleaning:startcleaningshort')
@@ -21,19 +22,13 @@ AddEventHandler('cleaning:startcleaningshort', function()
     -- print("Weapon hash --> "..weaponHash)
     -- print("NOmbre--> "..weaponName)
     if model == 416676503 or model == -1101297303 then
-        TriggerEvent("vorp_inventory:CloseInv");
         Citizen.InvokeNative(0x72F52AA2D2B172CC,  PlayerPedId(), 1242464081, Cloth, PropId, actshort, 1, 0, -1.0)   
         Wait(15000)
-        --TriggerEvent("vorp:NotifyLeft", Language.translate[Config.lang]['word'], Language.translate[Config.lang]['notif'], "generic_textures", "tick", 5000)
-        TriggerEvent("vorp:Tip", Language.translate[Config.lang]['notif'], 5000)
         Citizen.InvokeNative(0xA7A57E89E965D839,object,0.0,0)
         Citizen.InvokeNative(0x812CE61DEBCAB948,object,0.0,0)
     else
-        TriggerEvent("vorp_inventory:CloseInv");
         Citizen.InvokeNative(0x72F52AA2D2B172CC,  PlayerPedId(), 1242464081, Cloth, PropId, actlong, 1, 0, -1.0)   
-        Wait(15000)
-        --TriggerEvent("vorp:NotifyLeft", Language.translate[Config.lang]['word'], Language.translate[Config.lang]['notif'], "generic_textures", "tick", 5000)
-        TriggerEvent("vorp:Tip", Language.translate[Config.lang]['notif'], 5000)
+        Wait(15000)        
         Citizen.InvokeNative(0xA7A57E89E965D839,object,0.0,0)
         Citizen.InvokeNative(0x812CE61DEBCAB948,object,0.0,0)
     end
