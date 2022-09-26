@@ -2,9 +2,6 @@
 # rdx_clean_gun
 Cleaning weapon script
 
-## Preview
-- [Video](https://streamable.com/px5abv)
-
 ## 1.Requirements
 - RDX-Core
 - rdx_inventoryhud (or another inventory system)
