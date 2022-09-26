@@ -1,4 +1,4 @@
-# RDX-Core rdx_cleangun
+# RDX-Core rdx_clean_gun
 Cleaning weapon script
 
 ## Preview
@@ -9,7 +9,7 @@ Cleaning weapon script
 - rdx_inventoryhud (or another inventory system)
 
 ## 2. Installation
-- Copy and paste ```rdx_clean_gun``` folder to ```resources/bookat_cleangun```
+- Copy and paste ```rdx_clean_gun``` folder to ```resources/rdx_clean_gun```
 - Add ```ensure rdx_clean_gun``` to your ```server.cfg``` file
 - Add SQL to your DB ```sql``` folder
 - To change the language go to ```resources/bookat_cleangun/Config.lua```, and chenge the language 
